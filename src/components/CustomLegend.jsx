@@ -1,4 +1,4 @@
-import PlayerData from '../data/PlayerStats'
+import { PlayerData } from '../data/PlayerStats'
 
 export default function CustomLegend({ payload }) {
   if (payload)

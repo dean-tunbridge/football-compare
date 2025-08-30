@@ -1,4 +1,4 @@
-const PlayerData = [
+export const PlayerData = [
   {
     name: 'Xavi Simons',
     goals: 10,
