@@ -16,7 +16,7 @@ function App() {
           </h1>
           <GridItem title="Area Chart">
             <AreaChartComponent />
-            {/* </GridItem>
+          </GridItem>
           <GridItem title="Bar Chart">
             <BarChartComponent />
           </GridItem>
@@ -24,7 +24,7 @@ function App() {
             <LineChartComponent />
           </GridItem>
           <GridItem title="RadarChart">
-            <RadarChartComponent /> */}
+            <RadarChartComponent />
           </GridItem>
         </div>
       </div>

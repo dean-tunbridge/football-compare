@@ -12,7 +12,7 @@ import {
 import CustomToolTip from './CustomToolTip'
 import CustomLegend from './CustomLegend'
 
-import { PlayerData } from '../data/playerStats' // Assuming you exported PlayerData from this file
+import { PlayerData } from '../data/PlayerStats'
 
 const BarChartComponent = () => {
   return (
