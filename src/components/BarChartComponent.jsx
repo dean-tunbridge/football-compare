@@ -25,7 +25,6 @@ const BarChartComponent = () => {
         <Tooltip content={<CustomToolTip />} />
         <Legend content={<CustomLegend />} />
 
-        {/* Bars for some stats - you can adjust which ones you want */}
         <Bar
           dataKey="goals"
           fill="#FF268C"
@@ -48,6 +47,12 @@ const BarChartComponent = () => {
           dataKey="progressivePasses"
           fill="#0066B2"
           name="Progressive Passes"
+          radius={[4, 4, 0, 0]}
+        />
+        <Bar
+          dataKey="passCompletionPercentage"
+          fill="#003399"
+          name="Pass Completion %"
           radius={[4, 4, 0, 0]}
         />
       </BarChart>

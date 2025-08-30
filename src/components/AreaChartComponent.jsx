@@ -24,7 +24,6 @@ const AreaChartComponent = () => {
         <Tooltip content={<CustomToolTip />} />
         <Legend content={<CustomLegend />} />
 
-        {/* Areas: choose the metrics you want to display */}
         <Area
           type="monotone"
           dataKey="goals"
