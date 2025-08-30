@@ -1,5 +1,3 @@
-import { PlayerData } from '../data/PlayerStats'
-
 export default function CustomLegend({ payload }) {
   if (payload)
     return (
@@ -9,7 +7,7 @@ export default function CustomLegend({ payload }) {
             <span
               className="w-3 h-3 rounded-full"
               style={{ backgroundColor: entry.color }}></span>
-            <span className="text-sm text-white">{PlayerData}</span>
+            <span className="text-sm text-white">{entry.value}</span>
           </li>
         ))}
       </ul>
