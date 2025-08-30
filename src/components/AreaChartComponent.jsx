@@ -23,7 +23,6 @@ const AreaChartComponent = () => {
         <CartesianGrid strokeDasharray="5 5" />
         <Tooltip content={<CustomToolTip />} />
         <Legend content={<CustomLegend />} />
-
         <Area
           type="monotone"
           dataKey="goals"
@@ -54,10 +53,10 @@ const AreaChartComponent = () => {
         />
         <Area
           type="monotone"
-          dataKey="goalsAndAssistsPer90"
+          dataKey="passCompletionPercentage"
           stroke="#003399"
           fill="#00339933"
-          name="G+A per 90"
+          name="Pass Completion"
         />
       </AreaChart>
     </ResponsiveContainer>
